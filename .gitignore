@@ -1,0 +1,20 @@
+# Nix build artifacts
+result
+result-*
+
+# Direnv and environment files
+.direnv/
+.envrc.local
+
+# Age and SOPS secret files (defense in depth for public repo)
+*.key
+*.age
+keys.txt
+
+# Editor and OS metadata
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
